@@ -1,0 +1,306 @@
+body {
+	background-color: #FFFBF5;
+	font-family: lora,serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+header {
+	padding-top: 1rem;
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
+}
+
+.piratelogo {
+	width: 7rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+}
+
+.ticketbutton {
+	width: 3.8rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+}
+
+.cartbutton {
+	width: 2rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+}
+
+.piratelogo:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.cartbutton:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.ticketbutton:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.top {
+	display: flex;
+	align-items: center;
+}
+
+nav {
+	background-color: #283030;
+	text-align: center;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	color: #FFFBF5;
+	margin-bottom: -.2rem;
+}
+
+.na {
+	color: #FFFBF5;
+	font-size: 16px;
+	padding: 1rem;
+}
+
+.na:hover {
+	color: #21556C;
+}
+
+.herotext {
+	font-size: 16px;
+	color: #283030;
+	padding: 2rem;
+	text-align: center;
+}
+
+.hero {
+	padding-bottom: 1rem;
+}
+
+.planvisit {
+	text-align: center;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	color: #FFFBF5;
+	background-color: #EF4835;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1rem;
+}
+
+button:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.pirateimg {
+	width: 100%;
+}
+
+.section1,
+.section2 {
+  padding: 2rem;
+  color: #FFFBF5;
+}
+
+
+.featurecontent {
+	background: #283030 url(../img/backgroundblack.jpg) no-repeat bottom center;
+	padding-bottom: 10rem;
+	background-size: cover;
+}
+
+.bottom {
+  padding: 2rem;
+  color: black;
+  text-align: center;
+}
+
+/*
+
+@media screen and (min-width: 40em){
+  .section1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 40em){
+  .section2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+  }
+}
+
+.images {
+  grid-row: 2;
+}
+
+.images2 {
+	grid-row: 2;
+}
+
+@media screen and (min-width: 40em){
+  .images {
+    grid-row: 1;
+  }
+  main .text {
+    grid-row: 1;
+  }
+
+  */
+
+.sectiontexts {
+	text-align: left;
+	font-size: 16px;
+	color: #FFFBF5;
+}
+
+.learnmore {
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color: #FFFBF5;
+	background-color: #EF4835;
+	display: block;
+	margin-bottom: 1rem;
+
+}
+
+.featured {
+	font-family: 'Cinzel', serif;
+	font-weight: 800;
+	color: #21556C;
+	font-size: 20px;
+	text-align: center;
+	padding: 1rem;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logos {
+	padding: .5rem;
+	width: 100%;
+}
+
+.grid-content-title {
+	font-size: 30px;
+	color: #21556C;
+}
+
+.whitelogo {
+	width: 6rem;
+	margin-right: auto;
+}
+
+.fn {
+	color: #FFFBF5;
+	font-size: 16px;
+	padding: 1rem;
+}
+
+.fn:hover {
+	color: #21556C;
+}
+
+.socialmedia {
+	width: 5rem;
+	padding-bottom: .7rem;
+	padding-top: .15rem;
+}
+
+@media screen and (max-width: 40em){
+  .socialmedia,{
+    width: 20rem;
+  }
+}
+
+.copyright {
+	font-size: 10px;
+}
+
+.orbit-caption {
+	width: 50%;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: transparent;
+	width: 60%;
+}
+
+.orbit-bullets {
+	margin-top: -1rem;
+	padding-bottom: .5rem;
+}
+
+footer nav {
+	padding: 2rem;
+}
+
+.footer-container {
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+
+.contactbutton {
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color: #FFFBF5;
+	background-color: #EF4835;
+	display: block;
+	margin-bottom: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+@media screen and (max-width: 39.9375em){
+  .menu {
+    /* position menu on top, full screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    height: 100vh;
+    /* position content in vertical center */
+    flex-direction: column;
+    justify-content: center;
+    /* add styling details */
+    padding: 2rem;
+    background-color: #212121;
+  }
+  .show-for-small-only {
+    cursor: pointer;
+    text-align: center;
+  }
+  .show-for-small-only {
+    position: relative;
+    z-index: 12;
+  }
+  .show-for-small-only.btnToggle {
+    color: #ffffff;
+  }
+}

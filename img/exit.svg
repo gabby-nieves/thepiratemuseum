@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="35.5" viewBox="0 0 30 35.5">
+  <g id="exit" transform="translate(-180.5 -117.5)">
+    <text id="Exit-2" data-name="Exit" transform="translate(187 151)" fill="#fffbf5" font-size="9" font-family="Lora-Regular, Lora"><tspan x="0" y="0">Exit</tspan></text>
+    <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(177.5 110)">
+      <path id="Path_1" data-name="Path 1" d="M4.5,18h27" fill="none" stroke="#fffbf5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_2" data-name="Path 2" d="M4.5,9h27" fill="none" stroke="#fffbf5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_3" data-name="Path 3" d="M4.5,27h27" fill="none" stroke="#fffbf5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
